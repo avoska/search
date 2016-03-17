@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Open_Sans;
+    src: url(../fonts/OpenSans-CondLight.ttf);
+   }
+body{
+	font-family: Open_Sans;
+	font-size: 2em;
+}
+.first_panel_pos{
+	margin-top: 1vh;
+	padding-left: 0;
+	height: 20vh;
+}
+.first_panel_input{
+	height: 8vh;
+}
+.date_style{
+	border-color: #a9a9a9;
+	border-radius: 0;
+}
+.dd_style{
+	border-color: #a9a9a9;
+	border-radius: 0;
+}
+.header_select{
+
+	font-weight: 900;
+}
+option:hover{
+	background-color: red;
+}
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "12312312312323123";
+  }

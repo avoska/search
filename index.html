@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/img/crown.png" type="image/png">
+    <script src="js/less.js"></script>
+    <script src="js/jquery-2.2.0.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <title>Avoska</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <!--Навигация табов-->
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a data-toggle="tab" href="#panel1">Dive center</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#panel2">Liveaboards</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#panel3">Courses</a>
+                </li>
+
+            </ul>
+            <!--Контент табов-->
+            <div class="tab-content">
+                <div id="panel1" class="tab-pane fade in active">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-6 first_panel_pos">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="first_panel_input btn-block" placeholder="County, destination">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-3 first_panel_pos" data-toggle="tooltip" data-placement="bottom" title="Start Date">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="date" class="form-control first_panel_input date_style">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-3 first_panel_pos" data-toggle="tooltip" data-placement="bottom" title="End Date">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="date"  class="form-control first_panel_input date_style">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div id="panel2" class="tab-pane fade">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-6 first_panel_pos">
+                                <form>
+                                    <div class="form-group">
+                                        <select class="btn-block dd_style first_panel_input">
+                                            <option>Select destination</option>
+                                            <option class="header_select">Red Sea</option>
+                                            <option>Egypt</option>
+                                            <option>Sudan</option>
+                                            <option class="header_select">Europe</option>
+                                            <option>Egypt</option>
+                                            <option class="header_select">Pacific</option>
+                                            <option>Costa Rica</option>
+                                            <option>Ecuador</option>
+                                            <option>Mexico</option>
+                                            <option>Hawaii</option>
+                                            <option>Panama</option>
+                                            <option class="header_select">Red Sea</option>
+                                            <option>Egypt</option>
+                                            <option>Sudan</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-3 first_panel_pos ">
+                                <form>
+                                    <div class="form-group">
+                                        <select class="btn-block dd_style first_panel_input">
+                                            <option>Select Departure month</option>
+                                            <option>April 2016</option>
+                                            <option>May 2016</option>
+                                            <option>June 2016</option>
+                                            <option>July 2016</option>
+                                            <option>October 2016</option>
+                                            <option>December 2016</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-3 first_panel_pos ">
+                                <form>
+                                    <div class="form-group">
+                                        <select class="btn-block dd_style first_panel_input">
+                                            <option>Fleet or yacht name</option>
+                                            <option>Manta Cruise</option>
+                                            <option>Hatiku</option>
+                                            <option>Manta Cruise</option>
+                                            <option>Hatiku</option>
+                                            <option>Manta Cruise</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="panel3" class="tab-pane fade">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-3 first_panel_pos">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="first_panel_input btn-block" placeholder="County, destination">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-3 first_panel_pos">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="first_panel_input btn-block" placeholder="e.g. PADI OPEN WATER">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-2 first_panel_pos" data-toggle="tooltip" data-placement="bottom" title="Start Date">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="date" class="form-control first_panel_input date_style">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-xs-2 first_panel_pos" >
+                                <form>
+                                    <div class="form-group">
+                                        <input type="date" data-toggle="tooltip" data-placement="bottom" title="End Date" class="form-control first_panel_input date_style">
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
